@@ -2,6 +2,8 @@
 
 Repositorio compartido para el skill `audit-analytical-docx`.
 
+Repositorio en GitHub: [zinlogic/audit-analytical-docx](https://github.com/zinlogic/audit-analytical-docx)
+
 ## Prerrequisitos
 
 Antes de actualizar o ejecutar el skill, verificá que `git` y `python` estén instalados.
