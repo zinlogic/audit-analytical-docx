@@ -2,6 +2,25 @@
 
 Repositorio compartido para el skill `audit-analytical-docx`.
 
+## Prerrequisitos
+
+Antes de actualizar o ejecutar el skill, verificá que `git` y `python` estén instalados.
+
+En Windows, podés chequearlos así:
+
+```powershell
+Get-Command git, python -ErrorAction SilentlyContinue
+```
+
+Si falta alguno, instalalos con `winget`:
+
+```powershell
+winget install Git.Git -e
+winget install Python.Python.3.12 -e
+```
+
+En Linux o macOS, usá tu administrador de paquetes para instalar `git` y `python3` si no existen.
+
 La implementación principal vive en:
 
 `tools/audit-analytical-docx/`
