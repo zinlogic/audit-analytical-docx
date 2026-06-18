@@ -13,7 +13,27 @@ Incluye:
 - `SKILL.md` con el comportamiento y uso del skill
 - `README.md` con el flujo de actualización
 
-Para trabajar con el skill:
+## Actualizar en Windows
+
+Si trabajas desde PowerShell:
+
+```powershell
+git pull --ff-only
+cd tools\audit-analytical-docx
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+Si trabajas desde `cmd`:
+
+```bat
+git pull --ff-only
+cd tools\audit-analytical-docx
+.\.venv\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+## Actualizar en Linux o macOS
 
 ```bash
 git pull --ff-only
