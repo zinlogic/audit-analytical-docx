@@ -1,0 +1,7 @@
+python-docx
+langgraph
+langchain-core
+pydantic
+python-dotenv
+openai
+markdown-pdf

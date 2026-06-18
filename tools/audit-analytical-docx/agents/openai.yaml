@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditoria Analitica DOCX"
+  short_description: "Audita tablas y cromatogramas DOCX con reglas deterministicas."
+  default_prompt: "Auditar una tabla de resultados y un archivo de cromatogramas DOCX, generar reporte Markdown/PDF y explicar inconsistencias."

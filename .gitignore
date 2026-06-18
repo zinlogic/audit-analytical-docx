@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+.venv/
+venv/
+.env
+.tmp/
+temp_*/
+outputs/
+out_json/
+reportes_cromatogramas/
